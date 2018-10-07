@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$/monitor/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/hystrixdashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/spring-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/comment-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/house-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/user-service" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

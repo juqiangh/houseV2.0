@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.stereotype.Controller;
@@ -14,6 +15,7 @@ import java.util.List;
 
 @SpringBootApplication
 @EnableDiscoveryClient	//不依赖eureka，只使用ribbon时要注掉
+@EnableCircuitBreaker	//启用断路器
 @Controller
 //@RibbonClient(name="user",configuration=NewRuleConfig.class)
 public class ApiGatewayApplication {

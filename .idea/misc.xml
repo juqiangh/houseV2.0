@@ -3,11 +3,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/services/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/monitor/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/monitor/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/services/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/services/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/house-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/comment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/monitor/spring-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/monitor/hystrixdashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/monitor/zipkin/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

@@ -7,14 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="comment-service" />
         <module name="eureka-server" />
+        <module name="house-service" />
+        <module name="hystrixdashboard" />
+        <module name="spring-admin" />
         <module name="user-service" />
+        <module name="zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.5" />
+      <module name="comment-service" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="house-service" target="1.8" />
+      <module name="hystrixdashboard" target="1.8" />
+      <module name="spring-admin" target="1.8" />
       <module name="user-service" target="1.8" />
+      <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/services/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/services/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/comment-service/comment-service.iml" filepath="$PROJECT_DIR$/services/comment-service/comment-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/monitor/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/house-service/house-service.iml" filepath="$PROJECT_DIR$/services/house-service/house-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/housev2.0.iml" filepath="$PROJECT_DIR$/.idea/housev2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/hystrixdashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/monitor/hystrixdashboard/hystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/spring-admin/spring-admin.iml" filepath="$PROJECT_DIR$/monitor/spring-admin/spring-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/user-service/user-service.iml" filepath="$PROJECT_DIR$/services/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/monitor/zipkin/zipkin.iml" />
     </modules>
   </component>
 </project>

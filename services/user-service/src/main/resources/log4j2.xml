@@ -9,8 +9,8 @@
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L]  - %msg%n" charset="UTF-8"/>
         </Console>
 
-        <RollingRandomAccessFile name="FILE-INFO" fileName="/learning/log/house-info.log"
-            filePattern="/learning/log/house-info.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-INFO" fileName="/learning/log/user/house-info.log"
+            filePattern="/learning/log/user/house-info.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
@@ -23,8 +23,8 @@
         </RollingRandomAccessFile>
 
 
-        <RollingRandomAccessFile name="FILE-DEBUG" fileName="/learning/log/house-debug.log"
-            filePattern="/learning/log/house-debug.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-DEBUG" fileName="/learning/log/user/house-debug.log"
+            filePattern="/learning/log/user/house-debug.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}  [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
@@ -36,8 +36,8 @@
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
-        <RollingRandomAccessFile name="FILE-WARN" fileName="/learning/log/house-warn.log"
-            filePattern="/learning/log/house-warn.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-WARN" fileName="/learning/log/user/house-warn.log"
+            filePattern="/learning/log/user/house-warn.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
@@ -49,8 +49,8 @@
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
 
-        <RollingRandomAccessFile name="FILE-ERROR" fileName="/learning/log/house-error.log"
-            filePattern="/learning/log/house-error.%d{yyyy-MM-dd-HH}.log">
+        <RollingRandomAccessFile name="FILE-ERROR" fileName="/learning/log/user/house-error.log"
+            filePattern="/learning/log/user/house-error.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level [%logger{50}:%L] %tcid - %msg%n" charset="UTF-8" />
             <TimeBasedTriggeringPolicy  interval="1" />
